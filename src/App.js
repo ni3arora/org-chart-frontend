@@ -85,7 +85,7 @@ const App = (props) => {
   }, [true]);
   return (
     <div>
-      Click node to trigger action in parent or &nbsp;
+      Click node to trigger the action in parent or &nbsp;
       <button onClick={() => addNode()}>add node as root's child</button>
       <OrgChartComponent
         setClick={(click) => (addNodeChildFunc = click)}
